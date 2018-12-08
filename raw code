@@ -1,0 +1,5 @@
+If you want to Use classic editor on your Wordpress ste with Wordpress 5.0
+
+please use below filter on your functions.php file
+
+add_filter('use_block_editor_for_post', '__return_false');
